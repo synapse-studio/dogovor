@@ -36,7 +36,6 @@
 	- PDO support (extension=pdo.so and extension=pdo_mysql.so)<br>
 	- The PECL version of PDO is not compatible with Drupal 7 and cannot be used</li>
 <li>Больше информации о требованиям к PHP на английском&nbsp;<a href="https://www.drupal.org/requirements/php">тут</a></li>
-<li>&nbsp;</li>
 </ul><p>3) MySQL 5.0.15 or higher with PDO</p>
 <ul><li>Drupal 8:<br>
 	- MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with PDO and an InnoDB-compatible primary storage engine,<br>
