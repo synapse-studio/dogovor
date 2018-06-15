@@ -32,5 +32,5 @@
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articlepage.jpg?raw=true">
 
 ## Страница Статья
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articles.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articlepage.jpg?raw=true">
 
