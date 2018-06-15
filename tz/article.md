@@ -24,7 +24,6 @@
 
 [identifier]: https://github.com/synapse-studio/dogovor/blob/master/tz/openTZ.md#%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8E-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/news/new.jpg?raw=true">
 
 ## Страница Статья
 ## Страница Статьи
