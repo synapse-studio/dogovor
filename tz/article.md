@@ -29,7 +29,7 @@
 ## Страница Статьи
 На странице представлены опубликованные статьи с сортировкой по дате публикации.
 Каждая статья состоит из изображения, заголовка и даты публикации и тега.
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articlepage.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articles.jpg?raw=true">
 
 ## Страница Статья
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articlepage.jpg?raw=true">
