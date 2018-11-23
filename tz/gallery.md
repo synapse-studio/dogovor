@@ -28,4 +28,4 @@
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/gallery/gallery2.jpg?raw=true">
 
 ## Страница Альбома
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/gallery/gallerypage.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/gallery/gallery_2.jpg?raw=true">
