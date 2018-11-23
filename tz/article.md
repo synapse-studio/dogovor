@@ -14,8 +14,6 @@
 ## Добавление страницы. Редактирование страницы.
 Список полей:
 - Заголовок*. Тип поля: `текст`. Заголовок стараницы- обязательное к заполнению поле
-- Meta keywords. Тип поля: `текст`.
-- Meta description. Тип поля: `текст`. Текстовая область с ограничением в 250 символов
 - Изображение. Тип поля: `изображение`. Основное изображение. Прикрепляемый файл.
 - Текст. Тип поля: `текст`. Текстовая область с визуальным редактором. Текст на странице. Используется модуль CKEditor <https://ckeditor.com/>
 - Галерея. Тип поля: `изображение`. Изображения для блока «Галерея»
@@ -24,13 +22,13 @@
 
 [identifier]: https://github.com/synapse-studio/dogovor/blob/master/tz/openTZ.md#%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8E-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/article.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/article_1.jpg?raw=true">
 
 ## Страница Статьи
 На странице представлены опубликованные статьи с сортировкой по дате публикации.
-Каждая статья состоит из изображения, заголовка и даты публикации и тега.
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articles.jpg?raw=true">
+Каждая статья состоит из заголовка,изображения, анонса, даты публикации и тега.
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/article_list.jpg?raw=true">
 
 ## Страница Статья
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/articlepage.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/article/article_2.jpg?raw=true">
 
