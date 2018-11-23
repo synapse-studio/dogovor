@@ -25,7 +25,7 @@
 ## Страница Галлерея
 На странице представлены опубликованные альбомы с сортировкой по полю “Вес сортировки”. Каждый альбом состоит из изображения, заголовка.
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/gallery/gallery2.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/gallery/gallery_1.jpg?raw=true">
 
 ## Страница Альбома
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/gallery/gallery_2.jpg?raw=true">
