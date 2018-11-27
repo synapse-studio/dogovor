@@ -18,7 +18,7 @@
 - Короткое описание. Тип поля: `текст`. Текст простой длинный
 - Описание. Тип поля: `текст`. Текстовая область с визуальным редактором. Текст на странице. Используется модуль CKEditor <https://ckeditor.com/>
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/commanda/client.png?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/client/client.png">
 
 ## Страница Команда
 На странице представлены опубликованные материалы  Команда с сортировкой по дате публикации.
