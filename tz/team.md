@@ -18,12 +18,13 @@
 - Короткое описание. Тип поля: `текст`. Текст простой длинный
 - Описание. Тип поля: `текст`. Текстовая область с визуальным редактором. Текст на странице. Используется модуль CKEditor <https://ckeditor.com/>
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/client/client.png">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/commanda/team.png">
 
 ## Страница Команда
 На странице представлены опубликованные материалы  Команда с сортировкой по дате публикации.
 Команда состоит из фото, ФИО, должности, короткого описания
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/commanda/team.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/commanda/team_1.png">
 
-## Внутрянняя страница (сотрудник)
+## Детальная страница (страница сотрудника)
 Внутренняя страница отсутствует.
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/commanda/team_3.png">
