@@ -8,6 +8,7 @@
 
 
 ## Добавление сертификата. Редактирование сертификата.
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/certificate/certificate.png'>
 
 
 
@@ -16,6 +17,7 @@
 
 
 ## Страница сертификаты
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/certificate/certificate_1.png'>
 
 
 
