@@ -18,12 +18,12 @@
 - Описание. Тип поля: `текст`. Текстовая область с визуальным редактором. Текст на странице. Используется модуль CKEditor <https://ckeditor.com/>
 - Ссылка. Тип поля: `ссылка`.
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/partners/Partner.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/partners/partner.png">
 
 ## Страница Партнеры
 На странице представлены опубликованные материалы  Партнеры с сортировкой по дате публикации.
 Каждый Партнер состоит из Логотипа, заголовка, короткого описания
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/partners/Partners.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/partners/partner_1.png">
 
 ## Станица Партнер
 Внутренняя страница отсутствует.
