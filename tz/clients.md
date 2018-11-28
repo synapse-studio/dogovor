@@ -18,7 +18,7 @@
 - Описание. Тип поля: `текст`. Текстовая область с визуальным редактором. Текст на странице. Используется модуль CKEditor <https://ckeditor.com/>
 - Ссылка. Тип поля: `ссылка`.
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/clients/client.png>
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/clients/client.png">
 
 ## Страница Клиенты
 На странице представлены опубликованные материалы  Клиенты с сортировкой по дате публикации.
