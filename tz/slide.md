@@ -8,6 +8,7 @@
 
 
 ## Добавление слайда. Редактирование слайда.
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/slide/slide.png">
 
 
 
