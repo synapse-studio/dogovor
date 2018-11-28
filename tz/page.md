@@ -30,7 +30,7 @@
 
 ## Оформленная страница
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/page/pageitog.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/page/page_1.png">
 
 
 
