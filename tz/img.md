@@ -8,7 +8,13 @@
 
 
 ## Добавление изображения. 
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/img/image.png">
 
+
+
+
+## Страница изображения
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/img/image_1.png">
 
 
 
