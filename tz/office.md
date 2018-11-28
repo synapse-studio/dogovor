@@ -16,6 +16,7 @@
 
 
 ## Страница Офисы
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/office/office_1.png">
 
 
 
