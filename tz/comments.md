@@ -24,13 +24,13 @@
 
 [identifier]: https://github.com/synapse-studio/dogovor/blob/master/tz/openTZ.md#%D0%A2%D1%80%D0%B5%D0%B1%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BA-%D1%85%D1%80%D0%B0%D0%BD%D0%B5%D0%BD%D0%B8%D1%8E-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/comment.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/testimonial.png">
 
 ## Страница Отзыв
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/comment1.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/testimonial_2.png">
 
 ## Страница Отзывы
 На странице представлены опубликованные новости с сортировкой по дате публикации.
 Каждая новость состоит из изображения, заголовка и даты публикации и тега.
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/comments.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/testimonial_1.png">
