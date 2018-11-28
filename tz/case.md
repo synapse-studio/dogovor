@@ -16,9 +16,10 @@
 
 
 ## Страница кейсы
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/case/case_1.png">
 
 ## Страница кейса
-
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/case/case_2.png">
 
 
 
