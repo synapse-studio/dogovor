@@ -8,16 +8,18 @@
 
 
 ## Добавление проекта. Редактирование проекта.
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/project/project.png">
 
 
 
 
 
 
+## Страница проектов
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/project/project_1.png">
 
-## Страница проекты
-
-## Страница проект
+## Страница проекта
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/project/project_2.png">
 
 
 
