@@ -18,12 +18,12 @@
 - Описание. Тип поля: `текст`. Текстовая область с визуальным редактором. Текст на странице. Используется модуль CKEditor <https://ckeditor.com/>
 - Ссылка. Тип поля: `ссылка`.
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/clients/client.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/clients/client.png>
 
 ## Страница Клиенты
 На странице представлены опубликованные материалы  Клиенты с сортировкой по дате публикации.
 Каждый Клиент состоит из Логотипа, заголовка, короткого описания
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/clients/clients.jpg?raw=true">
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/clients/client_1.png">
 
 ## Станица Клиент
 Внутренняя страница отсутствует.
