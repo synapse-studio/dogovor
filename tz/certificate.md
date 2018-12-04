@@ -27,6 +27,9 @@
 На странице представлены опубликованные сертификаты с сортировкой по дате публикаций.
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/certificate/certificate_1.png">
 
+## Станица сертификат
+Внутренняя страница отсутствует.
+
 
 
 
