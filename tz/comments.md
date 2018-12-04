@@ -26,11 +26,12 @@
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/testimonial.png">
 
 
-## Страница Отзывы
+## Страница отзывы
 На странице представлены опубликованные новости с сортировкой по дате публикации.
-Каждая новость состоит из изображения, заголовка и даты публикации и тега.
+Каждая новость состоит из изображения, заголовка, даты публикации и тега.
 
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/testimonial_1.png">
 
-## Страница Отзыв
+## Страница отзыв
+На странице представлено детальное описание отзыва. 
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/comment/testimonial_2.png">
