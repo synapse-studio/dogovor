@@ -24,15 +24,16 @@
 
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/news/new.jpg?raw=true">
 
-## Страница Новость
 
-<img src="https://github.com/synapse-studio/helper/blob/master/tz/news/new_1.jpg?raw=true">
-
-## Страница Новости
+## Страница новости
 На странице представлены опубликованные новости с сортировкой по дате публикации.
 Каждая новость состоит из заголовка, изображения, анонса, даты публикации и тега.
 
 <img src="https://github.com/synapse-studio/helper/blob/master/tz/news/new_list.jpg?raw=true">
+
+## Страница новость
+На странице представлено детальное описание новости. 
+<img src="https://github.com/synapse-studio/helper/blob/master/tz/news/new_1.jpg?raw=true">
 
 
 
