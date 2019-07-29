@@ -1,7 +1,7 @@
 # Сайт визитка
 
 ## 0. Заполнить бриф
- * Жду от вас заполненый бриф: <a href='https://www.synapse-studio.ru/process/corporate-small/start/corporate-small'>сыслка</a>
+ * Жду от вас заполненый бриф: <a href='https://www.synapse-studio.ru/start/corporate-small'>сыслка</a>
 
 ## 1. Наполнение [срок: 1 рабочий день]
  * Разворачиваю сайт на техническом домене.
