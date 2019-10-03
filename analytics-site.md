@@ -20,7 +20,7 @@
   настоящего договора.
   
 * 1.2. Параметры проведения аналитики Сайта Заказчика указаны на 
-  сайте Исполнителя в разделе <a target="_blank" href="https://www.synapse-studio.ru/doc/analytics/tariff">Тарифы</a>
+  сайте Исполнителя в разделе Тарифы (https://www.synapse-studio.ru/doc/analytics/tariff)
   
 ## 2. АКЦЕПТ ДОГОВОРА
 
