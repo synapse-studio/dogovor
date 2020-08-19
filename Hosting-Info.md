@@ -15,35 +15,27 @@
 ### Итого:
 Для работы сайта на друпале подойдёт любой современный хостинг.
 ## Для технарей
-<p>1) Web-севрер Apache 1.3 или Apache 2.x или Nginx</p>
-<ul><li>mod_rewrite</li>
-<li>.htaccess (Apache Virtualhost должна содержать директиву "AllowOverride All" для использования файлов .htaccess в Drupal.)</li>
-<li>mbstring</li>
-<li>iconv</li>
-<li>Больше информации о требованиям к веб-серверу на английском&nbsp;<a href="https://www.drupal.org/requirements/webserver">тут</a></li>
-</ul><p>2) PHP 5.4</p>
-<ul><li>Drupal 8: PHP 5.5.9 or higher</li>
-<li>Drupal 7: PHP 5.2.5 or higher (5.4 or higher recommended).</li>
-<li>Settings<br>
-	- register_globals off<br>
-	- safe_mode off<br>
-	- session.save_handler user<br>
-	- session.cache_limiter nocache<br>
-	- error_reporting E_ALL<br>
-	- php_memory_limit не менее 100мб<br>
-	- The standard PHP extensions (enabled by default) Hash and JSON are required by Drupal 7<br>
-	- PDO support (extension=pdo.so and extension=pdo_mysql.so)<br>
-	- The PECL version of PDO is not compatible with Drupal 7 and cannot be used</li>
-<li>Больше информации о требованиям к PHP на английском&nbsp;<a href="https://www.drupal.org/requirements/php">тут</a></li>
-</ul><p>3) MySQL 5.0.15 or higher with PDO</p>
-<ul><li>Drupal 8:<br>
-	- MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with PDO and an InnoDB-compatible primary storage engine,<br>
-	- PostgreSQL 9.1.2 or higher with PDO,<br>
-	- SQLite 3.6.8 or higher</li>
-<li>Drupal 7:<br>
-	- MySQL 5.0.15/MariaDB 5.1.44/Percona Server 5.1.70 or higher with PDO,<br>
-	- PostgreSQL 8.3 or higher with PDO</li>
-<li>Больше информации о требованиях к базе данных на английском&nbsp;<a href="https://www.drupal.org/requirements/database">тут</a></li>
-</ul></div>
-
-</div>
+1. Web-севрер Apache 2.x или Nginx
+  - mod_rewrite
+  - .htaccess (Apache Virtualhost должна содержать директиву "AllowOverride All" для использования файлов .htaccess в Drupal.)
+  - mbstring
+  - iconv
+  - Больше информации о требованиям к веб-серверу на английском <a href="https://www.drupal.org/requirements/webserver">тут</a>
+1. PHP 7+
+  - Drupal 8: PHP 7+ or higher
+  - Settings:
+	- register_globals off
+	- safe_mode off
+	- session.save_handler user
+	- session.cache_limiter nocache
+	- error_reporting E_ALL
+	- php_memory_limit не менее 100мб
+	- The standard PHP extensions (enabled by default) Hash and JSON are required by Drupal 7
+	- PDO support (extension=pdo.so and extension=pdo_mysql.so)
+	- The PECL version of PDO is not compatible with Drupal 7 and cannot be use
+  - Больше информации о требованиям к PHP на английском&nbsp;<a href="https://www.drupal.org/requirements/php">тут</a>
+1. MySQL 5.6 or higher with PDO
+  - MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with PDO and an InnoDB-compatible primary storage engine
+  - PostgreSQL 9.1.2 or higher with PDO,
+  - SQLite 3.6.8 or higher
+  - Больше информации о требованиях к базе данных на английском&nbsp;<a href="https://www.drupal.org/requirements/database">тут</a>
