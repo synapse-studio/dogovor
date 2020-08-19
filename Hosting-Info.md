@@ -1,5 +1,3 @@
-<img src="/sites/default/files/styles/adaptive/public/article/2016/hosting_whitepaper_header.png?itok=QhGCrSWe" alt="" class="image-style-adaptive" height="439" width="700">
-
 ## Русскими словами
 * Операционная система: любая
   - мы используем Linux Debian/Ubuntu
