@@ -1,21 +1,20 @@
-<div class="node__content">
-   <div class="field field--name-field-image field--type-image field--label-hidden field__item">
 <img src="/sites/default/files/styles/adaptive/public/article/2016/hosting_whitepaper_header.png?itok=QhGCrSWe" alt="" class="image-style-adaptive" height="439" width="700">
-</div>
-<div class="clearfix text-formatted field field--name-body field--type-text-with-summary field--label-hidden field__item"><h2>Русскими словами</h2>
-<ul><li><strong>Операционная система:</strong>&nbsp;любая<br>
-	мы используем LinuxDebian</li>
-<li><strong>Веб сервер:</strong>&nbsp;Apache или Nginx или&nbsp;Microsoft IIS - любая современная версия<br>
-	у нас используется связка -&nbsp;Nginx на фронтенде и&nbsp;Apache на бекэнде</li>
-<li><strong>Язык:</strong>&nbsp;PHP 5.4+ - т.е. любая современная версия PHP</li>
-<li><strong>База данных:</strong>&nbsp;MySQL&nbsp;5.0.15+, т.е. любая современная версия<br>
-	у нас MySQL&nbsp;5.5+,&nbsp;друпал поддерживает&nbsp;PostgreSQL,&nbsp;SQLite и множество других</li>
-<li><strong>План хостинга:</strong>&nbsp;память 128+мб, место на диске 100+мб<br>
-	- оперативная память min 32Mb. Для комфортной работы желательно 128Mb+<br>
-	- место на диске&nbsp;50Mb+. Для комфортной работы 100Mb+</li>
-</ul><h4>Итого:</h4>
-<p>Для работы сайта на друпале подойдёт любой современный хостинг.</p>
-<h2>Для технарей</h2>
+
+## Русскими словами
+* Операционная система: любая
+  - мы используем Linux Debian/Ubuntu
+* Веб сервер: Apache или Nginx или Microsoft IIS - любая современная версия
+  - у нас используется Nginx
+* Язык: PHP 7+ - т.е. современная версия PHP (php7.3+ на август 2020)
+* База данных: MySQL 5.6+, т.е. любая современная версия или другая совместимая
+  - у нас MySQL 5.6 на старых проектах, Mariadb 10.5 на новых и SQLite на сайтах-визитках;
+  - друпал поддерживает PostgreSQL SQLite и множество других
+* План хостинга: память 128+мб, место на диске 100+мб
+  - оперативная память min 32Mb. Для комфортной работы желательно 128Mb
+  - место на диске 50Mb+. Для комфортной работы 100Mb+
+### Итого:
+Для работы сайта на друпале подойдёт любой современный хостинг.
+## Для технарей
 <p>1) Web-севрер Apache 1.3 или Apache 2.x или Nginx</p>
 <ul><li>mod_rewrite</li>
 <li>.htaccess (Apache Virtualhost должна содержать директиву "AllowOverride All" для использования файлов .htaccess в Drupal.)</li>
