@@ -28,12 +28,12 @@
   - Мы используем такме пакеты https://github.com/politsin/docker-php/blob/master/Dockerfile#L15
   - Подробное описание: https://www.drupal.org/docs/system-requirements/php-requirements
   - Конфигурация:
-    - register_globals off
-    - safe_mode off
-    - session.save_handler user
-    - session.cache_limiter nocache
-    - error_reporting E_ALL
-    - php_memory_limit не менее 100мб (у нас 500Mb)
+    * register_globals off
+    * safe_mode off
+    * session.save_handler user
+    * session.cache_limiter nocache
+    * error_reporting E_ALL
+    * php_memory_limit не менее 100мб (у нас 500Mb)
 * База данных
   - MySQL 5.6+ для Drupal8 / у нас 5.6.41+
   - MySQL 5.7.8+ для Drupal9 / у нас Mariadb 10.5+
