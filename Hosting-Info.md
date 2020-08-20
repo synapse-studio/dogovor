@@ -1,39 +1,51 @@
 ## Русскими словами
 * <b>Операционная система:</b> любая
   - мы используем Linux Debian/Ubuntu
-* Веб сервер: Apache или Nginx или Microsoft IIS - любая современная версия
-  - у нас используется Nginx
-* Язык: PHP 7+ - т.е. современная версия PHP (php7.3+ на август 2020)
-* База данных: MySQL 5.6+, т.е. любая современная версия или другая совместимая
-  - у нас MySQL 5.6 на старых проектах, Mariadb 10.5 на новых и SQLite на сайтах-визитках;
-  - друпал поддерживает PostgreSQL SQLite и множество других
+* <b>Веб сервер: Apache или Nginx или Microsoft IIS</b> - любая современная версия
+  - мы используем Nginx
+* Язык: PHP 7+ - современная версия (php7.3+ на август 2020)
+  - Актуальную версию PHP можно увидеть тут: https://www.php.net/supported-versions.php
+* База данных: MySQL/PostgreSQL/SQLite и множество других
+  - MySQL 5.6+ для Drupal8 / у нас 5.6.41+
+  - MySQL 5.7.8+ для Drupal9 / у нас Mariadb 10.5+
+  - SQLite 3.6.8+ для сайтов визиток / у нас SQLite3.31
 * План хостинга: память 128+мб, место на диске 100+мб
-  - оперативная память min 32Mb. Для комфортной работы желательно 128Mb
-  - место на диске 50Mb+. Для комфортной работы 100Mb+
+  - оперативная память min 32Mb. Для комфортной работы желательно 500Mb+
+  - место на диске 50Mb+. Для комфортной работы 500Mb+
 ### Итого:
 Для работы сайта на друпале подойдёт любой современный хостинг.
 ## Для технарей
+Для технарей
+
 1. Web-севрер Apache 2.x или Nginx
-  - mod_rewrite
-  - .htaccess (Apache Virtualhost должна содержать директиву "AllowOverride All" для использования файлов .htaccess в Drupal.)
-  - mbstring
-  - iconv
-  - Больше информации о требованиям к веб-серверу на английском <a href="https://www.drupal.org/requirements/webserver">тут</a>
+  - Nginx - наша конфигурация : https://github.com/politsin/docker-proxy/tree/master/includes
+  - Для Apache: mod_rewrite, .htaccess + "AllowOverride All", iconv, mbstring
+  - Подробное описание: https://www.drupal.org/docs/system-requirements/web-server-requirements
 1. PHP 7+
-  - Drupal 8: PHP 7+ or higher
-  - Settings:
-	- register_globals off
-	- safe_mode off
-	- session.save_handler user
-	- session.cache_limiter nocache
-	- error_reporting E_ALL
-	- php_memory_limit не менее 100мб
-	- The standard PHP extensions (enabled by default) Hash and JSON are required by Drupal 7
-	- PDO support (extension=pdo.so and extension=pdo_mysql.so)
-	- The PECL version of PDO is not compatible with Drupal 7 and cannot be use
-  - Больше информации о требованиям к PHP на английском&nbsp;<a href="https://www.drupal.org/requirements/php">тут</a>
-1. MySQL 5.6 or higher with PDO
-  - MySQL 5.5.3/MariaDB 5.5.20/Percona Server 5.5.8 or higher with PDO and an InnoDB-compatible primary storage engine
-  - PostgreSQL 9.1.2 or higher with PDO,
-  - SQLite 3.6.8 or higher
-  - Больше информации о требованиях к базе данных на английском&nbsp;<a href="https://www.drupal.org/requirements/database">тут</a>
+  - PHP 7.3+ достаточно для всех версий
+  - предыдущие версии PHP нет смысла обсуждать, т.к. они находятся в статусе EOL https://www.php.net/supported-versions.php
+  - Необходимые пакеты:  mysql/mysqli with PDO, xml, gd/ImageMagick, OpenSSL, JSON, cURL, Mbstring, Opcache
+  - Мы используем такме пакеты https://github.com/politsin/docker-php/blob/master/Dockerfile#L15
+  - Подробное описание: https://www.drupal.org/docs/system-requirements/php-requirements
+  - Конфигурация:
+    - register_globals off
+    - safe_mode off
+    - session.save_handler user
+    - session.cache_limiter nocache
+    - error_reporting E_ALL
+    - php_memory_limit не менее 100мб (у нас 500Mb)
+1. База данных
+  - MySQL 5.6+ для Drupal8 / у нас 5.6.41+
+  - MySQL 5.7.8+ для Drupal9 / у нас Mariadb 10.5+
+  - SQLite 3.6.8+ для сайтов визиток / у нас SQLite3.31
+  - у нас Mariadb 10.5+ (~= MySQL 5.7) с такой конфигурацией https://github.com/politsin/docker-starter/blob/master/etc/dev/mysql/my.cnf 
+  - Подробное описание https://www.drupal.org/docs/system-requirements/database-server-requirements
+1. Для комфортной работы программиста
+  - ssh/sftp
+  - composer & memory 500Mb+
+  - drush 8+
+  - drupal-console
+  - node-js
+  - gulp-cli, gulp#4.0 --save-dev, gulp-sass, gulp-watch, gulp-touch, gulp-touch-cmd, gulp-plumber
+  - git
+  - среда для работы програмиста: https://github.com/politsin/docker-php/blob/master/Dockerfile
