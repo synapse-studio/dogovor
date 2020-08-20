@@ -17,11 +17,11 @@
 ## Для технарей
 Для технарей
 
-1 Web-севрер Apache 2.x или Nginx
+* Web-севрер Apache 2.x или Nginx
   - Nginx - наша конфигурация : https://github.com/politsin/docker-proxy/tree/master/includes
   - Для Apache: mod_rewrite, .htaccess + "AllowOverride All", iconv, mbstring
   - Подробное описание: https://www.drupal.org/docs/system-requirements/web-server-requirements
-1 PHP 7+
+* PHP 7+
   - PHP 7.3+ достаточно для всех версий
   - предыдущие версии PHP нет смысла обсуждать, т.к. они находятся в статусе EOL https://www.php.net/supported-versions.php
   - Необходимые пакеты:  mysql/mysqli with PDO, xml, gd/ImageMagick, OpenSSL, JSON, cURL, Mbstring, Opcache
@@ -34,13 +34,13 @@
     - session.cache_limiter nocache
     - error_reporting E_ALL
     - php_memory_limit не менее 100мб (у нас 500Mb)
-1 База данных
+* База данных
   - MySQL 5.6+ для Drupal8 / у нас 5.6.41+
   - MySQL 5.7.8+ для Drupal9 / у нас Mariadb 10.5+
   - SQLite 3.6.8+ для сайтов визиток / у нас SQLite3.31
   - у нас Mariadb 10.5+ (~= MySQL 5.7) с такой конфигурацией https://github.com/politsin/docker-starter/blob/master/etc/dev/mysql/my.cnf 
   - Подробное описание https://www.drupal.org/docs/system-requirements/database-server-requirements
-1 Для комфортной работы программиста
+* Для комфортной работы программиста
   - ssh/sftp
   - composer & memory 500Mb+
   - drush 8+
