@@ -692,8 +692,7 @@
 * Для комфортной работы программиста
   - ssh/sftp
   - composer & memory 500Mb+
-  - drush 8+
-  - drupal-console
+  - drush 10+
   - node-js
   - gulp-cli, gulp#4.0 --save-dev, gulp-sass, gulp-watch, gulp-touch, gulp-touch-cmd, gulp-plumber
   - git
