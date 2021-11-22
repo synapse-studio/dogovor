@@ -686,7 +686,7 @@
     * php_memory_limit не менее 100мб (у нас 500Mb)
 * База данных
   - MySQL 5.7.8+ / у нас Mariadb 10.5+
-  - SQLite 3.26+ для сайтов визиток / у нас SQLite 3.31.1 2020-01-27
+  - SQLite 3.26+ (released December 2018) для сайтов визиток https://www.drupal.org/project/drupal/issues/3190641 / у нас SQLite 3.31.1 2020-01-27
   - у нас Mariadb 10.5+ (~= MySQL 5.7) с такой конфигурацией https://github.com/politsin/docker-starter/blob/master/etc/dev/mysql/my.cnf 
   - Подробное описание https://www.drupal.org/docs/system-requirements/database-server-requirements
 * Для комфортной работы программиста
