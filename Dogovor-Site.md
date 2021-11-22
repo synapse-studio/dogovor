@@ -660,7 +660,7 @@
   - Актуальную версию PHP можно увидеть тут: https://www.php.net/supported-versions.php
 * **База данных:** MySQL/PostgreSQL/SQLite:
   - MySQL 5.7.8+ для Drupal9 / у нас Mariadb 10.5+
-  - SQLite 3.6.8+ для сайтов визиток / у нас SQLite3.31
+  - SQLite 3.26+ для сайтов визиток / у нас SQLite3.31
 * **План хостинга:** память 128Mb+, место на диске 300Mb+
   - оперативная память min 128Mb. Для комфортной работы желательно 800Mb+
   - место на диске 300Mb+. Для комфортной работы 800Mb+
@@ -686,7 +686,7 @@
     * php_memory_limit не менее 100мб (у нас 500Mb)
 * База данных
   - MySQL 5.7.8+ / у нас Mariadb 10.5+
-  - SQLite 3.6.8+ для сайтов визиток / у нас SQLite3.31
+  - SQLite 3.26+ для сайтов визиток / у нас SQLite 3.31.1 2020-01-27
   - у нас Mariadb 10.5+ (~= MySQL 5.7) с такой конфигурацией https://github.com/politsin/docker-starter/blob/master/etc/dev/mysql/my.cnf 
   - Подробное описание https://www.drupal.org/docs/system-requirements/database-server-requirements
 * Для комфортной работы программиста
