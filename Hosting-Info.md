@@ -21,7 +21,7 @@
   - Nginx - наша конфигурация : https://github.com/politsin/docker-proxy/tree/master/includes
   - Для Apache: mod_rewrite, .htaccess + "AllowOverride All", iconv, mbstring
   - Подробное описание: https://www.drupal.org/docs/system-requirements/web-server-requirements
-* PHP 7+
+* PHP 7.4+
   - PHP 7.4+ достаточно для всех версий
   - предыдущие версии PHP нет смысла обсуждать, т.к. они находятся в статусе EOL https://www.php.net/supported-versions.php
   - Необходимые пакеты:  mysql/mysqli with PDO, xml, gd/ImageMagick, OpenSSL, JSON, cURL, Mbstring, Opcache
