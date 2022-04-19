@@ -10,8 +10,8 @@
 * SSD RAID1
 
 ## Параметры LAMP
-* PHP 7.1-7.2	 	 	 	 
-* MariaDB 10.2.x / MySQL 5.6+	 
+* PHP 8+	 	 	 	 
+* MariaDB 10.5.x / MySQL 5.6+	 
 * Доступ по SSH/SFTP/FTP	 	 	 	 
 * phpMyAdmin или adminer	 	 	 	 
 * Drush
