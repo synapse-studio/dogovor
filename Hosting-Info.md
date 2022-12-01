@@ -15,7 +15,6 @@
 ### Итого:
 Для работы сайта на друпале подойдёт любой современный хостинг.
 ## Для технарей
-Для технарей
 
 * Web-севрер Apache 2.x или Nginx
   - Nginx - наша конфигурация : https://github.com/politsin/docker-proxy/tree/master/includes
