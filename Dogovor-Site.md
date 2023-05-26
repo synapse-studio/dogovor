@@ -643,11 +643,11 @@
   - мы используем Linux Debian/Ubuntu
 * **Веб сервер:** Apache или Nginx или Microsoft IIS - любая современная версия
   - мы используем Nginx
-* **Язык: PHP актуальной версии** - (php7.4+ на ноябрь 2021)
+* **Язык: PHP актуальной версии** - (php 8.2+ на май 2023)
   - Актуальную версию PHP можно увидеть тут: https://www.php.net/supported-versions.php
 * **База данных:** MySQL/PostgreSQL/SQLite:
   - MySQL 5.7.8+ для Drupal9 / у нас Mariadb 10.5+
-  - SQLite 3.26+ для сайтов визиток / у нас SQLite3.31
+  - SQLite 3.26+ для сайтов визиток / у нас SQLite 3.38
 * **План хостинга:** память 128Mb+, место на диске 300Mb+
   - оперативная память min 128Mb. Для комфортной работы желательно 800Mb+
   - место на диске 300Mb+. Для комфортной работы 800Mb+
@@ -660,7 +660,7 @@
   - Для Apache: mod_rewrite, .htaccess + "AllowOverride All", iconv, mbstring
   - Подробное описание: https://www.drupal.org/docs/system-requirements/web-server-requirements
 * PHP
-  - Любая актульная версия (8+ на ноябрь 2021) https://www.php.net/supported-versions.php
+  - Любая актульная версия (8.2+ на май 2023) https://www.php.net/supported-versions.php
   - Необходимые пакеты:  mysql/mysqli with PDO, xml, gd/ImageMagick, OpenSSL, JSON, cURL, Mbstring, Opcache
   - Мы используем такме пакеты https://github.com/politsin/docker-php/blob/master/Dockerfile#L15
   - Подробное описание: https://www.drupal.org/docs/system-requirements/php-requirements
@@ -673,13 +673,13 @@
     * php_memory_limit не менее 100мб (у нас 500Mb)
 * База данных
   - MySQL 5.7.8+ / у нас Mariadb 10.5+
-  - SQLite 3.26+ (released December 2018) для сайтов визиток https://www.drupal.org/project/drupal/issues/3190641 / у нас SQLite 3.31.1 2020-01-27
+  - SQLite 3.26+ для сайтов визиток https://www.drupal.org/project/drupal/issues/3190641 / у нас SQLite 3.38+
   - у нас Mariadb 10.5+ (~= MySQL 5.7) с такой конфигурацией https://github.com/politsin/docker-starter/blob/master/etc/dev/mysql/my.cnf 
   - Подробное описание https://www.drupal.org/docs/system-requirements/database-server-requirements
 * Для комфортной работы программиста
   - ssh/sftp
   - composer & memory 500Mb+
-  - drush 10+
+  - drush 11+
   - node-js
   - gulp-cli, gulp#4.0 --save-dev, gulp-sass, gulp-watch, gulp-touch, gulp-touch-cmd, gulp-plumber
   - git
