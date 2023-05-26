@@ -23,7 +23,7 @@
   - PHP 8.0+ достаточно для всех версий
   - предыдущие версии PHP нет смысла обсуждать, т.к. они находятся в статусе EOL https://www.php.net/supported-versions.php
   - Необходимые пакеты:  mysql/mysqli with PDO, xml, gd/ImageMagick, OpenSSL, JSON, cURL, Mbstring, Opcache
-  - Мы используем такме пакеты https://github.com/politsin/docker-php/blob/master/Dockerfile#L15
+  - Мы используем также пакеты https://github.com/politsin/docker-php/blob/master/Dockerfile#L15
   - Подробное описание: https://www.drupal.org/docs/system-requirements/php-requirements
   - Конфигурация:
     * register_globals off
@@ -45,4 +45,4 @@
   - node-js
   - gulp-cli, gulp#4.0 --save-dev, gulp-sass, gulp-watch, gulp-touch, gulp-touch-cmd, gulp-plumber
   - git
-  - среда для работы програмиста: https://github.com/politsin/docker-php/blob/master/Dockerfile
+  - среда для работы программиста: https://github.com/politsin/docker-php/blob/master/Dockerfile
